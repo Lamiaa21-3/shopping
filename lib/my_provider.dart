@@ -27,7 +27,7 @@ class Product {
 class MyProvider with ChangeNotifier {
   List <Product> productslist = [];
 
-  late File image;
+   late File  image;
 
   void add({required String description, required String title, required double price}) {
     productslist.add(Product(
